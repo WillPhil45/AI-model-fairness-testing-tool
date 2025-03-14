@@ -1,0 +1,24 @@
+Overall Fairness Testing Results Summary
+================================================================================
+
+Comparison across all datasets:
+
+Dataset             | Baseline (Mean/Median) | GA (Mean/Median) | Improvement (Mean/Median) | Significant
+----------------------------------------------------------------------------------------------------
+adult                | 0.5094/0.5070          | 0.6366/0.6395     | +24.96%/+26.13%           | Yes*
+compas               | 0.2573/0.2530          | 0.4025/0.4120     | +56.47%/+62.85%           | Yes*
+communities_crime    | 0.0000/0.0000          | 0.0000/0.0000     | +0.00%/+0.00%             | No
+dutch                | 0.0195/0.0190          | 0.2383/0.2390     | +1124.14%/+1157.89%       | Yes*
+credit               | 0.6725/0.6710          | 0.7726/0.7785     | +14.88%/+16.02%           | Yes*
+german               | 0.5664/0.5660          | 0.7403/0.7455     | +30.69%/+31.71%           | Yes*
+kdd                  | 0.0690/0.0700          | 0.5221/0.5100     | +656.35%/+628.57%         | Yes*
+law_school           | 0.0004/0.0000          | 0.0401/0.0000     | +10827.27%/+0.00%         | Yes*
+----------------------------------------------------------------------------------------------------
+
+* Statistically significant improvement (p < 0.05) using Wilcoxon signed-rank test
+
+Average Mean Improvement: 1591.85%
+Average Median Improvement: 240.40%
+Number of datasets with significant improvement: 7/8 (87.5%)
+
+Conclusion: The Genetic Algorithm approach with unique pair tracking outperforms the baseline Random Search method with an average improvement of 1591.85% in mean IDI ratio and 240.40% in median IDI ratio. Statistical significance was observed in 7 out of 8 datasets.

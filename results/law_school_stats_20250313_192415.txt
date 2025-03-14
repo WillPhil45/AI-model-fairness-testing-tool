@@ -1,0 +1,31 @@
+Fairness Testing Statistical Analysis - law_school
+================================================================================
+
+IDI Ratio Results:
+Baseline Method Mean IDI Ratio: 0.0004 ± 0.0005
+Baseline Method Median IDI Ratio: 0.0000
+Genetic Algorithm Mean IDI Ratio: 0.0401 ± 0.0888
+Genetic Algorithm Median IDI Ratio: 0.0000
+
+Percentile Analysis:
+                    Baseline    GA       Improvement
+25th                 0.0000      0.0000    +0.00%
+50th (median)        0.0000      0.0000    +0.00%
+75th                 0.0010      0.0067    +575.00%
+
+Overall Improvement:
+Mean Improvement: 10827.27%
+
+Time Performance:
+Baseline Method Mean Time: 113.58 seconds
+Genetic Algorithm Mean Time: 85.10 seconds
+
+Prediction Differences:
+Baseline Mean Prediction Difference: 0.0133
+Genetic Algorithm Mean Prediction Difference: 0.0257
+
+Statistical Tests:
+Wilcoxon signed-rank test: W=45.0000, p=0.0416
+Effect size (Cohen's d): 0.6320
+
+Conclusion: The Genetic Algorithm significantly outperforms the baseline Random Search method.

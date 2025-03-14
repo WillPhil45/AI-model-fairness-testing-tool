@@ -1,0 +1,31 @@
+Fairness Testing Statistical Analysis - communities_crime
+================================================================================
+
+IDI Ratio Results:
+Baseline Method Mean IDI Ratio: 0.0000 ± 0.0000
+Baseline Method Median IDI Ratio: 0.0000
+Genetic Algorithm Mean IDI Ratio: 0.0000 ± 0.0000
+Genetic Algorithm Median IDI Ratio: 0.0000
+
+Percentile Analysis:
+                    Baseline    GA       Improvement
+25th                 0.0000      0.0000    +0.00%
+50th (median)        0.0000      0.0000    +0.00%
+75th                 0.0000      0.0000    +0.00%
+
+Overall Improvement:
+Mean Improvement: 0.00%
+
+Time Performance:
+Baseline Method Mean Time: 127.24 seconds
+Genetic Algorithm Mean Time: 79.16 seconds
+
+Prediction Differences:
+Baseline Mean Prediction Difference: 0.0034
+Genetic Algorithm Mean Prediction Difference: 0.0075
+
+Statistical Tests:
+Wilcoxon signed-rank test: W=nan, p=nan
+Effect size (Cohen's d): 0.0000
+
+Conclusion: No statistically significant difference between the methods.

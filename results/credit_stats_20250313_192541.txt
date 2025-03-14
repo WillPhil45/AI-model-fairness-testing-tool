@@ -1,0 +1,31 @@
+Fairness Testing Statistical Analysis - credit
+================================================================================
+
+IDI Ratio Results:
+Baseline Method Mean IDI Ratio: 0.6725 ± 0.0167
+Baseline Method Median IDI Ratio: 0.6710
+Genetic Algorithm Mean IDI Ratio: 0.7726 ± 0.0275
+Genetic Algorithm Median IDI Ratio: 0.7785
+
+Percentile Analysis:
+                    Baseline    GA       Improvement
+25th                 0.6605      0.7620    +15.37%
+50th (median)        0.6710      0.7785    +16.02%
+75th                 0.6858      0.7868    +14.73%
+
+Overall Improvement:
+Mean Improvement: 14.88%
+
+Time Performance:
+Baseline Method Mean Time: 161.93 seconds
+Genetic Algorithm Mean Time: 66.01 seconds
+
+Prediction Differences:
+Baseline Mean Prediction Difference: 0.1575
+Genetic Algorithm Mean Prediction Difference: 0.5199
+
+Statistical Tests:
+Wilcoxon signed-rank test: W=0.0000, p=0.0000
+Effect size (Cohen's d): 4.4056
+
+Conclusion: The Genetic Algorithm significantly outperforms the baseline Random Search method.
