@@ -1,2 +1,1 @@
-# ISE_Coursework
-AI model fairness testing tool
+# AI model fairness testing tool
